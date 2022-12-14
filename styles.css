@@ -1,0 +1,412 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    /* font-family: 'Montserrat', sans-serif; */
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
+  
+}
+/* :root {
+ 
+  } */
+
+  .header{
+    background-color: rgb(246, 242, 242);
+    height: 100vh;
+  }
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  
+}
+
+.header img{
+    height: 3em;
+}
+.header li,a{
+    margin-top: 1rem;
+    
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 25px;
+    
+}
+
+
+.signup button{
+    padding: 15px;
+    border-radius: 3rem;
+    width: 7rem;
+    background-color: rgb(255, 151, 54);
+    border: none;
+    color: white;
+    font-size: 0.8rem;
+    
+}
+.signup{
+    padding: 15px;
+}
+
+.hero h1{
+font-weight: bold;
+font-size: 3.5em;
+margin-top: 8rem;
+}
+
+.hero p {
+    width: 80%;
+    font-size: 20px;
+    font-weight:normal;
+    color: #676767;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.hero .hero-btn{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.hero .start{
+    padding: 15px;
+   border-radius: 3rem;
+   width: 10rem;
+   background-color: rgb(255, 151, 54);
+   border: none;
+   color: white;
+}
+
+.hero .order{
+    padding: 15px;
+    border-radius: 3rem;
+    width: 10rem;
+  gap: 2rem;
+
+}
+
+
+
+
+.contents-food .title-contents h1{
+    text-align: center;
+    margin-top: 6rem;
+  
+}
+.contents-food .title-contents p{
+  color: #676767;
+  text-align: center;
+}
+.contents-food .features{
+    display: flex;
+    margin-top: 4rem;
+    gap: 5rem;
+     text-align: center;
+    justify-content: center;
+}
+
+.contents-food .features .cards .detail p{
+
+ color: #676767;
+ font-size: 0.8rem;
+ justify-content: center;
+}
+
+.contents-food .features .cards .detail img{
+
+    height: 10rem;
+   }
+
+
+   /* Menu */
+
+.menu{
+    margin-top: 10rem;
+}
+
+.menu h1{
+    
+    font-size: 4rem;
+    margin-top: 4rem;
+}
+.menu p{
+    font-size: 1rem;
+    color: #676767;
+}
+
+.list-menu{
+    display: flex;
+    gap: 20px;
+   
+    
+}
+   .list-menu button{
+    /* width: 8rem;
+    height: 3rem;
+     background-color: rgb(255, 151, 54);
+     display: flex;
+     gap: 20px;
+     width: 200px;
+     height: 4rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+   color: #ffffff; */
+   padding: 15px;
+   width: 15rem;
+   background-color: rgb(255, 151, 54);
+   border: none;
+   color: white;
+   align-items: center;
+   }
+
+   /* .list-menu p{
+    border:3px solid rgb(250, 243, 243) ;
+    border-radius: 30px;
+    width: 30px;
+    justify-content: start;
+    margin-top: 15px;
+    } */
+
+   .list-menu button:hover{
+    border-left: 5px solid rgb(255, 151, 54);
+    background-color: black;
+    color: #ffffff;
+
+   
+   }
+
+
+   .list-menu p:hover{
+  
+    background-color: rgb(255, 151, 54);
+    color: #ffffff;
+   }
+
+
+
+   .menu .img-menu img{
+    height: 500px;
+   }
+
+
+
+
+
+/* popular */
+.popular .title-popular h1{
+    text-align: center;
+    margin-top: 8rem;
+}
+.popular .title-popular p{
+    text-align: center;
+    color: #676767;
+   
+}
+
+   .d-flex{
+    gap: 2rem;
+   }
+
+   .price button{
+    background-color:rgb(255, 151, 54) ;
+    border: none;
+    width: 2rem;
+    border-radius: 7px;
+    height: 1.8rem;
+   
+   }
+
+   .card-img-top{
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+   }
+
+.card-text{
+    font-size: 0.8rem;
+    color: #676767;
+    width: 100%;
+    
+}
+
+
+
+
+.customer{
+    background-color: rgb(246, 242, 242);
+    margin-top: 4rem;
+    padding: 3rem;
+}
+
+.customer h1{
+    text-align: center;
+padding-top: 3rem;
+}
+
+.customer p{
+    text-align: center;
+    color: #676767;
+}
+
+.customer .bg-customer{
+    background-image: url("./assets/bg-customer.svg");
+    background-repeat: no-repeat;
+    background-size: 90% 800px;
+   
+ 
+    /* width: 50%; */
+}
+
+
+.list-customer{
+
+    margin-top: 6rem;
+}
+
+
+
+.list-customer .card{
+    border-radius: 2.5rem;
+}
+
+.list-customer .img-customer{
+    position: absolute;
+    
+    height: 80px;
+    right: -3%;
+    top: -20%;
+    
+}
+
+.list-customer .card-title{
+    margin-top: 4rem;
+}
+
+
+
+
+/* price */
+
+
+.pricing{
+    background-image: url("./assets/bg-pricing.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing .title-pricing h1{
+    margin-top: 5rem;
+    text-align: center;
+}
+.pricing .title-pricing p{
+    color: #676767;
+    text-align: center;
+}
+.pricing .card{
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 6rem;
+}
+
+.pricing .list-card{
+    margin-top: 2rem;
+}
+.pricing .card-text {
+    line-height: 0.7rem;
+  
+}
+
+
+.pricing .btn{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing button{
+    padding: 0.7rem;
+    width: 15rem;
+    border-radius: 3rem;
+    align-items: center;
+ margin-top: 2rem;
+ color: red;
+ border: none;
+}
+
+
+.pricing .card:hover {
+    background-color: black;
+    color: #ffffff;
+}
+.pricing .card:hover button{
+    background-color: red;
+    color: #ffffff;
+}
+
+
+/* Footer */
+
+
+footer{
+    background-color: black;
+    color: #ffffff;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.footer .fa{
+    padding: 20px;
+    font-size: 1.3rem;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+   
+}
+.footer img{
+    height: 3rem;
+}
+
+
+
+.footer .fa-facebook {
+   
+color: rgb(255, 151, 54);
+border: 3px;
+border-color: #ffffff;
+  }
+
+  .footer .fa-instagram {
+    border-style: solid;
+    border-color: #ffffff;
+    color: rgb(255, 151, 54);
+    border: 3px;
+    border-color: #ffffff;
+      }
+      .footer .fa-linkedin {
+        border-style: solid;
+        border-color: #ffffff;
+        color: rgb(255, 151, 54);
+        border: 3px;
+        border-color: #ffffff;
+          }
+
+.footer p{
+    color: #676767;
+}
+
